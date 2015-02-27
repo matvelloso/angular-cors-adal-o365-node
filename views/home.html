@@ -1,0 +1,23 @@
+﻿<div class="homeNoAuth" ng-hide="userInfo.isAuthenticated">
+    In order to see your files, you will need to authenticate against Office 365.
+    <div><button class="btn btn-primary" ng-click="login()">Log in</button> to see your information.</div>
+</div>
+<div id="home" class="authenticated" ng-show="userInfo.isAuthenticated">
+    You can access your documents that are stored in Office365.
+    <div class="panel" id="panel-101">
+        <header>
+            <i class="icon-asterisk"></i>
+            <span>Employee dashboard</span>
+        </header>
+        <div class="content tiles-container">
+
+            <a href="/#/search" class="tile-btn"><i class="icon-icomoon-file-word"></i><span>Files</span></a>
+            <a href="#" class="tile-btn">
+                <i class="icon-group"></i>
+                <span>Org Chart</span>
+            </a>
+            <a href="#" class="tile-btn"><i class="icon-film"></i><span>Media</span></a>
+
+        </div>
+    </div>
+</div>
