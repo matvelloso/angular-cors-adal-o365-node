@@ -45,6 +45,7 @@
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
+    <Content Include="LICENSE" />
     <Content Include="package.json" />
     <Content Include="public\fonts\font-awesome\css\font-awesome-ie7.min.css" />
     <Content Include="public\fonts\font-awesome\css\font-awesome.css" />
