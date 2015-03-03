@@ -14,12 +14,12 @@ angular.module('docsApp', ['ngRoute','AdalAngular'])
         {
             tenant: 'dxdemos.net',
             clientId: 'de50e8bc-7b32-4722-9705-3195d1ac942a',
-            endpoints: [
+            endpoints: 
             {
-                url: 'https://dxdemos-my.sharepoint.com/_api/',
+                url: 'https://dxdemos-my.sharepoint.com/',
                 resourceId: 'https://dxdemos-my.sharepoint.com/'
             }
-            ]
+            
         },
         $httpProvider
         );

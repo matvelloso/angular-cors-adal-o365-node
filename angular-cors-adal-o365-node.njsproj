@@ -34,8 +34,8 @@
     <Compile Include="app.js" />
     <Compile Include="config.js" />
     <Compile Include="public\fonts\icomoon-pack-madmin-1.5\lte-ie7.js" />
-    <Compile Include="public\scripts\adal.js" />
-    <Compile Include="public\scripts\angular-ui-bootstrap.js" />
+    <Compile Include="public\scripts\adal-angular.min.js" />
+    <Compile Include="public\scripts\adal.min.js" />
     <Compile Include="public\scripts\angularApp.js" />
     <Compile Include="public\scripts\homeCtrl.js" />
     <Compile Include="public\scripts\indexCtrl.js" />
@@ -68,6 +68,8 @@
     <Content Include="public\stylesheets\overrides.css" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
+    <Content Include="views\home.html" />
+    <Content Include="views\index.html" />
     <Content Include="views\index.jade" />
     <Content Include="views\layout.jade" />
     <Content Include="views\error.jade" />
@@ -89,6 +91,7 @@
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="views\search.html" />
     <Content Include="Web.config" />
     <Content Include="bin\ChangeConfig.ps1" />
     <Content Include="bin\download.ps1" />

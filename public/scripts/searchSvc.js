@@ -39,7 +39,8 @@ angular.module('docsApp')
                     }, function (error) {
                         alert(error);
                     });
-                }
+                }, function (error){
+                    alert(error);}
                 )
                 
                 
